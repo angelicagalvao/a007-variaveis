@@ -1,5 +1,10 @@
-let a = 10
-let b = 20
+let a = 10;
+let b = 25;
+let c;
 
-console.log("O novo valor de a é", b)
-console.log("O novo valor de b é", a)
+c=a
+a=b
+b=c
+
+console.log ("O novo valor de a é", a)
+console.log ("O novo valor de b é", b)
